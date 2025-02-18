@@ -43,7 +43,7 @@ function NavbarLayout1(props) {
 	return (
 		<div className={clsx('flex flex-col overflow-hidden h-full', classes.root, props.className)}>
 			<AppBar
-				color="primary"
+				color="secondary"
 				position="static"
 				className="flex flex-row items-center flex-shrink h-48 md:h-64 min-h-48 md:min-h-64 px-12 shadow-0"
 			>

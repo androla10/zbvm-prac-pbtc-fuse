@@ -352,6 +352,30 @@ const themesConfig = {
 			danger: 'orange'
 		}
 	},
+	myTheme: {
+		palette: {
+			type: 'light',
+			primary: {
+				light: '#A7BEF8FF',
+				main: '#7da0fa',
+				dark: '#5081FAFF',
+			},
+			secondary: {
+				light: '#8685CAFF',
+				main: '#4B49AC',
+				dark: '#3F3DA3FF',
+				contrastText: '#FFFFFF'
+			},
+			background: {
+				paper: '#FFFFFF',
+				default: '#FFFFFF'
+			},
+			error: red
+		},
+		status: {
+			danger: 'orange'
+		}
+	},
 	dark1: {
 		palette: {
 			type: 'dark',

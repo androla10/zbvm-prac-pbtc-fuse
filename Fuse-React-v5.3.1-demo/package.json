@@ -1,4 +1,5 @@
 {
+    "home-page": "https://androla10.github.io/zbvm-prac-pbtc-fuse",
     "name": "fuse-react-app",
     "version": "5.3.1",
     "private": true,
@@ -25,6 +26,7 @@
         "date-fns": "2.16.1",
         "firebase": "8.2.2",
         "formsy-react": "2.2.1",
+        "fuse-react-app": "file:",
         "google-map-react": "2.1.9",
         "history": "4.10.1",
         "i18next": "19.8.4",
@@ -80,7 +82,8 @@
         "typeface-muli": "1.1.13",
         "velocity-animate": "1.5.2",
         "velocity-react": "1.4.3",
-        "web-vitals": "^0.2.4"
+        "web-vitals": "^0.2.4",
+        "yarn": "^1.22.22"
     },
     "resolutions": {
         "react": "17.0.1",
@@ -104,6 +107,7 @@
         "eslint-plugin-prettier": "^3.1.4",
         "eslint-plugin-react": "^7.21.5",
         "eslint-plugin-react-hooks": "^4.2.0",
+        "gh-pages": "^6.3.0",
         "js-beautify": "1.13.0",
         "postcss": "^8.2.4",
         "prettier": "^2.2.1",
@@ -117,6 +121,8 @@
         "start": "yarn run tailwind && react-scripts start",
         "build": "yarn run tailwind && yarn run purge-tailwind && cross-env GENERATE_SOURCEMAP=false react-scripts build",
         "tailwind": "tailwind build ./src/styles/tailwind-config.css -c ./tailwind.config.js -o ./src/styles/tailwind.css",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "purge-tailwind": "node ./purge-tailwindcss.js",
         "test": "react-scripts test --env=node",
         "eject": "react-scripts eject",
