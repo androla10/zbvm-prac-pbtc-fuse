@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ff69837b97ae8b1139f15c1a1634dba",
+    "revision": "97c23a201c509fd02825649ad1568020",
     "url": "https://androla10.github.io/zbvm-prac-pbtc-fuse/index.html"
   },
   {

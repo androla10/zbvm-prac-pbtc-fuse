@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://androla10.github.io/zbvm-prac-pbtc-fuse/precache-manifest.e829dd9957f16c53888a4df60dc7d152.js"
+  "https://androla10.github.io/zbvm-prac-pbtc-fuse/precache-manifest.ed51ca0f64a17f93c3d10ca949a2dbbd.js"
 );
 
 self.addEventListener('message', (event) => {
